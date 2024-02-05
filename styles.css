@@ -146,6 +146,13 @@ main {
   outline: 0;
 }
 
+.product__btn[data-icon="shopping cart"]::before {
+  content: "";
+  width: 15px;
+  height: 16px;
+  background-image: url("images/icon-cart.svg");
+}
+
 .product__btn:hover {
   background: var(--clr-evenDarkerCyan);
 }
